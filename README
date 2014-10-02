@@ -1,7 +1,12 @@
 Installation:
 	
 # Clone the repository
-> git clone git://github.com/jmaicher/dotfiles.git ~/.dotfiles
+> git clone git://github.com/jmaicher/env.git ~/.env
 
-# Create symlinks. For example:
-> ln -s ~/.dotfiles/.tmux.conf ~/.tmux.conf
+# Init/update git submodules
+> git submodule init && git submodule update
+
+# Create symlinks
+> ln -s ~/.env/.tmux.conf ~/.tmux.conf
+> ln -s ~/.env/.vim/.vimrc ~/.vimrc
+> ln -s ~/.env/.vim ~/.vim
