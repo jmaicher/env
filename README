@@ -1,12 +1,18 @@
-Installation:
-	
-# Clone the repository
+# clone the repository
 > git clone git://github.com/jmaicher/env.git ~/.env
 
-# Init/update git submodules
+# init/update git submodules
 > git submodule init && git submodule update
 
-# Create symlinks
+# zsh (prerequisite: oh-my-zsh)
+> ln -s ~/.env/zsh/.zshrc ~/.zshrc
+> ln -s ~/.env/zsh/my.zsh-theme ~/.oh-my-zsh/themes/my.zsh-theme
+
+# vim
+> ln -s ~/.env/vim/.vimrc ~/.vimrc
+> ln -s ~/.env/vim ~/.vim
+
+# tmux
 > ln -s ~/.env/.tmux.conf ~/.tmux.conf
-> ln -s ~/.env/.vim/.vimrc ~/.vimrc
-> ln -s ~/.env/.vim ~/.vim
+
+# iterm2: load profile from plist
