@@ -1135,8 +1135,6 @@
 	<true/>
 	<key>MaxVertically</key>
 	<false/>
-	<key>NSColorPanelMode</key>
-	<string>6</string>
 	<key>NSFontPanelAttributes</key>
 	<string>1, 4</string>
 	<key>NSNavLastRootDirectory</key>
@@ -1158,41 +1156,16 @@
 		BAtzdHJlYW10eXBlZIHoA4QBQISEhAhOU1N0cmluZwGEhAhOU09iamVjdACF
 		hAErATGG
 		</data>
-		<string>271</string>
+		<string>302</string>
 	</array>
 	<key>NSTableView Hidden Columns KeyBingingTable</key>
 	<array/>
 	<key>NSTableView Sort Ordering KeyBingingTable</key>
 	<array/>
-	<key>NSToolbar Configuration Terminal Toolbar</key>
-	<dict>
-		<key>TB Display Mode</key>
-		<integer>1</integer>
-		<key>TB Icon Size Mode</key>
-		<integer>1</integer>
-		<key>TB Is Shown</key>
-		<integer>0</integer>
-		<key>TB Size Mode</key>
-		<integer>1</integer>
-	</dict>
-	<key>NSWindow Frame NSColorPanel</key>
-	<string>427 356 214 309 0 0 1920 1058 </string>
-	<key>NSWindow Frame NSFontPanel</key>
-	<string>998 520 445 270 0 0 1920 1058 </string>
 	<key>NSWindow Frame Preferences</key>
-	<string>267 211 924 485 0 0 1280 778 </string>
+	<string>356 293 924 485 0 0 1280 778 </string>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>104 155 650 451 0 0 1280 778 </string>
-	<key>NSWindow Frame iTerm Window 1</key>
-	<string>405 73 650 451 0 0 1280 778 </string>
-	<key>NSWindow Frame iTerm Window 2</key>
-	<string>218 278 650 451 0 0 1280 778 </string>
-	<key>NSWindow Frame iTerm Window 3</key>
-	<string>110 50 650 451 0 0 1920 1058 </string>
-	<key>NSWindow Frame iTerm Window 4</key>
-	<string>98 184 1172 586 0 0 1920 1178 </string>
-	<key>NSWindow Frame iTerm Window 5</key>
-	<string>380 8 570 376 0 0 1920 1178 </string>
+	<string>154 163 650 476 0 0 1280 778 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -1840,11 +1813,11 @@
 			<key>Name</key>
 			<string>Default</string>
 			<key>Non Ascii Font</key>
-			<string>DejaVuSansMonoForPowerline 14</string>
+			<string>Menlo-Regular 13</string>
 			<key>Non-ASCII Anti Aliased</key>
 			<true/>
 			<key>Normal Font</key>
-			<string>DejaVuSansMonoForPowerline 14</string>
+			<string>DejaVuSansMono 13</string>
 			<key>Option Key Sends</key>
 			<integer>0</integer>
 			<key>Prompt Before Closing 2</key>
@@ -2019,6 +1992,8 @@
 			<string>/Users/jmaicher</string>
 		</dict>
 	</array>
+	<key>NoSyncNeverRemindPrefsChangesLost</key>
+	<true/>
 	<key>OnlyWhenMoreTabs</key>
 	<true/>
 	<key>OpenArrangementAtStartup</key>
@@ -2065,7 +2040,7 @@
 		</dict>
 	</dict>
 	<key>PrefsCustomFolder</key>
-	<string>/Users/jmaicher/Desktop</string>
+	<string>/Users/jmaicher/.env/iTerm2</string>
 	<key>PromptOnClose</key>
 	<true/>
 	<key>PromptOnQuit</key>
@@ -2076,8 +2051,6 @@
 	<integer>8</integer>
 	<key>RightOption</key>
 	<integer>3</integer>
-	<key>SUAutomaticallyUpdate</key>
-	<true/>
 	<key>SUEnableAutomaticChecks</key>
 	<true/>
 	<key>SUFeedURL</key>
@@ -2085,9 +2058,7 @@
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2014-10-01T13:59:21Z</date>
-	<key>SUSkippedVersion</key>
-	<string>1.0.0.20140518</string>
+	<date>2014-10-02T19:50:32Z</date>
 	<key>SavePasteHistory</key>
 	<false/>
 	<key>ShowBookmarkName</key>
@@ -2133,6 +2104,6 @@
 	<key>findRegex_iTerm</key>
 	<false/>
 	<key>iTerm Version</key>
-	<string>1.0.0.20140629</string>
+	<string>2.0</string>
 </dict>
 </plist>
